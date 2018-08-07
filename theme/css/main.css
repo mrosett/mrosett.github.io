@@ -181,8 +181,7 @@ div.post-meta div.meta-data {
     color: rgba(0, 0, 0, 0.6); }
 
 div.page-container {
-  text-align: center;
-  margin-top: 80px; }
+  text-align: center; }
   div.page-container div.entry-content {
     max-width: 700px;
     margin: 0 auto;
