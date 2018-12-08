@@ -39,14 +39,20 @@ div.post-content, div.entry-content {
   div.post-content h1, div.post-content h2, div.post-content h3, div.post-content h4, div.post-content h5, div.post-content h6, div.entry-content h1, div.entry-content h2, div.entry-content h3, div.entry-content h4, div.entry-content h5, div.entry-content h6 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: normal; }
+  div.post-content h3, div.post-content h4, div.post-content h5, div.post-content h6, div.post-content p, div.entry-content h3, div.entry-content h4, div.entry-content h5, div.entry-content h6, div.entry-content p {
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em; }
   div.post-content h1, div.post-content h2, div.entry-content h1, div.entry-content h2 {
-    font-size: 36px; }
+    font-size: 36px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em; }
   div.post-content h3, div.entry-content h3 {
     font-size: 32px; }
   div.post-content h4, div.entry-content h4 {
     font-size: 28px; }
   div.post-content h5, div.post-content h6, div.entry-content h5, div.entry-content h6 {
-    font-size: 26px; }
+    font-size: 26px;
+    line-height: 1.1; }
   div.post-content h3, div.post-content h4, div.post-content h5, div.post-content h6, div.entry-content h3, div.entry-content h4, div.entry-content h5, div.entry-content h6 {
     font-weight: 300; }
   div.post-content a, div.entry-content a {
@@ -189,7 +195,9 @@ div.page-container {
     font-family: Georgia, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 1.5;
-    padding: 20px; }
+    padding: 2px;
+    margin-block-start: 0;
+    margin-block-end: 0; }
     @media screen and (min-width: 35.5em) {
       div.page-container div.entry-content {
         line-height: 1.6; } }
